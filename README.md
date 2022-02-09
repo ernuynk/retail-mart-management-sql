@@ -25,7 +25,6 @@ Task to be performed:
 13. Write a query to display the sales details if quantity is greater than 2 and price is lesser than 500 from the sales table.
 14. Write a query to display the customer’s name if the name ends with a.
 15. Write a query to display the product details in descending order of the price.
-16. Write a query to display the product code and category from similar categories that are greater than or equal to 2.
-17. Write a query to display the order number and the customer name to combine the results of the order and the customer tables including duplicate rows.
 
-Status: Ongoing
+
+Status: Completed
