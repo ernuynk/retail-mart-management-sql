@@ -139,14 +139,6 @@ select * from customer_details_table where customer_name like "a";
 #(14) Write a query to display the product details in descending order of the price.
 select * from product_table order by price desc;
 
-#(15) Write a query to display the product code and category from similar categories that are greater than or equal to 2.
-select count(category) from product_table having count(*) => 2;
-
-#(16) Write a query to display the order number and the customer name to combine the results of the order and the customer tables including duplicate rows.
-select order_no, customer_name
-from sales_table, customer_details_table
-where sales_table.customer_id = customer_details_table.customer_id;
-
 
 
 
